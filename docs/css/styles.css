@@ -1,1 +1,22 @@
-/*main css file*/
+h1 {
+    font-size: 24px;
+    margin: 10px;
+    padding: 15px;
+    background: linear-gradient(-15deg, #ff00aa 0%, #00eeff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    margin: 15px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    padding: 15px;
+}
