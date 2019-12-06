@@ -1,3 +1,15 @@
+/*@font-face {
+    font-family: 'Press Start 2P', cursive;
+    src: url(docs/src/fonts/PressStart2P-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}*/
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
 h1 {
     font-size: 24px;
     margin: 10px;
@@ -10,6 +22,8 @@ h1 {
 body {
     margin: 15px;
     padding: 5px;
+    /*background: linear-gradient(125deg, #0f2027, #203a43, #2c5364);
+    W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -17,6 +31,43 @@ body {
     align-items: center;
 }
 
+p {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 img {
     padding: 15px;
 }
+
+.nes-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    background: linear-gradient(-15deg, #ff00aa 0%, #00eeff 100%);
+}
+
+.nes-btn.is-primary,
+.nes-btn.is-success,
+.nes-btn.is-error {
+    margin: 10px;
+}
+
+
+/*
+Environmental Science - Soil, Water and Biodiversity (EnvEuro)
+University of Hohenheim • Stuttgart:
+https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4564/
+
+Applied & Environmental Geoscience (AEG)
+University of Tübingen • Tübingen:
+https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3791/
+
+Environmental Geography
+University of Bayreuth • Bayreuth:
+https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/5246/
+*/
