@@ -8,6 +8,8 @@
 html {
     margin: 0px;
     padding: 0px;
+    font-family: 'Press Start 2P';
+
 }
 
 h1 {
@@ -23,8 +25,8 @@ body {
     margin: 15px;
     padding: 5px;
     /*background: linear-gradient(125deg, #0f2027, #203a43, #2c5364);
-    W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
