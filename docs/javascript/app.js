@@ -1,11 +1,11 @@
 //Main JS file for landing page
 
 var pics = [
-    "/src/album/Alakazam/0.jpg",
-    "/src/album/Alakazam/1.png",
-    "/src/album/Alakazam/2.jpg",
-    "/src/album/Alakazam/3.jpg",
-    "/src/album/Alakazam/4.jpg"
+    "./src/album/Alakazam/0.jpg",
+    "./src/album/Alakazam/1.png",
+    "./src/album/Alakazam/2.jpg",
+    "./src/album/Alakazam/3.jpg",
+    "./src/album/Alakazam/4.jpg"
 ];
 
 var btn = document.querySelector("button");
