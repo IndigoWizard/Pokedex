@@ -17,7 +17,6 @@ h1 {
     padding: 10px;
     text-align: center;
     font-size: 36px;
-    text-decoration-line: overline;
     background: linear-gradient(-15deg, #e7dc3b 10%, #ec1616 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
