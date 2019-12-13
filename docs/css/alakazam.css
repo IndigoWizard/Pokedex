@@ -40,11 +40,17 @@ img {
 }
 
 .nes-container.with-title.is-centered {
-    padding: 5px;
-    margin: 25px;
+    margin: 5px;
     display: flex;
     flex-direction: column;
 }
+.lists{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 
 li {
     padding: 5px;
