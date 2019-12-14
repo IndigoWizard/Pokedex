@@ -1,7 +1,7 @@
 //Main JS file for landing page
-var folderName = document.querySelector('#title');
+/*var folderName = document.querySelector('#title');
 folderName.textContent
-/*var pic = []
+var pic = []
 for (var i = 0; i < 5; i++){
     pic.push(`./src/album/${folderName.textContent}/${i}.png`);
 }*/
