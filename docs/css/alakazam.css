@@ -15,17 +15,18 @@ html {
 h1 {
     margin: 10px;
     padding: 10px;
+    color: #D5C251;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
     font-size: 36px;
-    background: linear-gradient(-15deg, #e7dc3b 10%, #ec1616 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-decoration-color: #D5C251;
 }
 
 body {
     margin: 5px;
     padding: 10px;
-    background: linear-gradient(30deg, magenta 0%, yellow 120%);
+    background: linear-gradient(0deg, hsl(4, 14%, 38%) 30%, #dac862 30%, #dac862 66%, #FAFAF9 66%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,9 +38,13 @@ img {
     height: 250px;
     border-radius: 50%;
 }
+.name, .nes-badge, .nes-btn.is-primary {
+    margin: 7px;
+}
 
 .nes-container.with-title.is-centered {
-    margin: 5px;
+    margin: 50px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -49,9 +54,15 @@ img {
     flex-direction: row;
     justify-content: space-between;
 }
+.nes-text.is-primary {
+    margin-left: 50px;
+    padding: 5px;
+    color: #FAFAF9;
+    display: flex;
+    flex-direction: column;
+}
 
-
-li {
+.li {
     padding: 5px;
     display: flex;
     flex-direction: row;
