@@ -5,3 +5,4 @@
 #requires styles path changes           #
 #########################################
 
+/node_modules/*
