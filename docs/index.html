@@ -7,6 +7,7 @@
 <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
 <link rel="stylesheet" href="./css/style.css">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,11 +20,23 @@
     <img src="./src/album/pokédex.png">
     <p>Welcome to the Pokédex Project, here you can find the list of all pokémon and related info.</p><br>
     <p>I'll be building my favourite pokémon dex pages first, so it won't be organized according to regional/national listing.</p>
+
+    <div class="nes-field">
+        <label for="name_field">Search Pokémon</label>
+        <input type="text" id="name_field" class="nes-input" placeholder="Search Pokémon">
+    </div>
+
+    <div class="nes-select">
+        <select required id="default_select">
+              <option value="" disabled selected hidden>Select...</option>
+              <option value="/docs/indexes/alakazam.html">Alakazam</option>
+             <option value="1" href="indexes/gengar.html">Gengar</option>
+            </select>
+    </div>
     <div class="nes-container">
         <button class="nes-btn is-success">Search</button>
-        <!--<input type="button" class="nes-btn is-primary" value="random" onclick="./docs/indexes/alakazam.html">-->
-        <a class="nes-btn is-primary" href="./indexes/alakazam.html">random</a>
-        <button class="nes-btn is-error">Report bug</button>
+        <a class="nes-btn is-primary" href="./indexes/alakazam.html">Alakazam</a>
+        <a class="nes-btn is-error" href="./indexes/gengar.html">Gengar</a>
     </div>
 
 </body>
