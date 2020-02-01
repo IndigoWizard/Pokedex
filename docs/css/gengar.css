@@ -8,7 +8,7 @@
 html {
     margin: 0px;
     padding: 0px;
-    font-family: 'Press Start 2P';
+    font-family: 'Press Start 2P', cursive;
 }
 
 h1 {
@@ -50,13 +50,14 @@ img {
     align-items: center;
 }
 
-span.is-dark,
-span.is-error {
+.nes-badge.is-splited {
+    padding: 5px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin: auto;
+    background: aqua;
+    text-align: center;
 }
 
 .nes-container.with-title {
@@ -68,20 +69,10 @@ span.is-error {
     justify-content: center;
 }
 
-
-/*.nes {
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}*/
-
-.nes-text.is-primary {
-    margin-left: 50px;
-    padding: 5px;
+p {
     color: #FAFAF9;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 
