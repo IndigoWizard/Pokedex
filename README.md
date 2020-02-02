@@ -1,4 +1,5 @@
 # Pokédex Project
+**(Feel free to Star the project, fork it and or contribute to it)**
 
 This is my web dev project as a long term running project while i'm learning web dev from 0 to hero!
 Check the project's web page here: 
